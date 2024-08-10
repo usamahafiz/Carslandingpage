@@ -23,4 +23,51 @@
     background-color: #fff;
     padding: 12px 38px;
     color: #262626;
+
+}
+
+ /* Media Queries for responsiveness */
+
+ /* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .nav {
+        padding: 20px 60px;
+    }
+
+    .nav-logo {
+        font-size: 36px;
+    }
+
+    .nav-menu {
+        gap: 60px;
+        font-size: 18px;
+    }
+
+    .nav-contact {
+        padding: 10px 28px;
+    }
+}
+
+ /* Small screens (mobile) */
+@media (max-width: 480px) {
+    .nav {
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .nav-contact {
+        padding: 8px 20px;
+        margin-top: 20px;
+    }
 }

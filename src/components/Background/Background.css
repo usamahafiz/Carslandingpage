@@ -18,3 +18,19 @@
 .fade-in{
     animation: fade-in 50ms ease-in-out;
 }
+
+ /* Media Queries for responsiveness */
+
+ /* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .background {
+        background-size: cover;
+    }
+}
+
+ /* Small screens (mobile) */
+@media (max-width: 480px) {
+    .background {
+        background-size: cover;
+    }
+}

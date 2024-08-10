@@ -6,9 +6,9 @@ import Hero from './components/Hero/Hero';
 
 const App =() => {
   const heroData = [
-    {text1:"Dive into",text2:"What you love"},
-    {text1:"Indulge",text2:"your passions"},
-    {text1:"Give into",text2:"your passions"},
+    {text1:"Immerse yourself",text2:"in your passions"},
+    {text1:"Fuel your",text2:"ambitions"},
+    {text1:"Honour your",text2:"desires"},
   ];
   const [heroCount, setHerocount] = useState(0);
   const [playStatus,setPlayStatus] = useState(false);
@@ -17,7 +17,7 @@ const App =() => {
   useEffect(()=>{
     setInterval(()=>{
       setHerocount((count)=>{return count === 2 ?0: count+1})
-    }, 5000);
+    }, 3000);
   },[])
 
 
